@@ -88,6 +88,12 @@ if(friend.includes("Hinal")) {
     console.log("You have not friend called Hinal");
 }
 
+//👉array.from() :- used to create an array from any other object.
+let name ="hello";
+let arr = Array.from(name);
+console.log(arr);
+ 
+
 
 
 

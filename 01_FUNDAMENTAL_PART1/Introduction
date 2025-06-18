@@ -1,0 +1,32 @@
+👉Client is request to the server and server is response for the
+ client.
+
+👉HTML is provides the structure and content of the webpages 
+👉CSS is style and design the appearence of the webpage 
+👉JS is adds interactivity and dynamic behaviour of the webpages.
+
+👉JAVASCRIPT is the improve the user exeprience of the web page by
+converting it from a static page into  an interactive one.
+
+👉JAVASCRIPT is used to update and change html  and css it adds  behaviour to webpages.
+
+👉clean the console :- cls
+
+👉3 types of JAVASCRIPT:-
+1)inline 2)internal 3)external
+
+👉High level overview for JAVASCRIPT:-
+👉javascript is high level,prototype-based object oriented,multi -paradigm,interpreater or just in time compiled,dynamic ,single threaded,garbage collection programming language with first class function and non-bloacking event loop concurrency model.
+
+👉what is javascript enginge?
+👉javascript engine is the programes that executes javascript code.
+
+👉Compilation:-
+👉Entire code is converted into machine code at once and written to a binary file that can be execute by a computer.
+
+👉Interpreatatio:-
+👉interpreater runs through the source code and executes it line by line.
+
+👉document.getelementbyclassname
+👉The getElementsByClassName() method returns a collection of elements with a specified class name(s).
+

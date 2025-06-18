@@ -2,6 +2,7 @@
 //👉objects define using {}.
 //👉objects is define for the key value pairs.
 //👉it is just like the array.
+// 
 
 
 //simple way to creating object

@@ -82,3 +82,12 @@ for(let exercise = 1 ; exercise < 4 ; exercise++) {
         console.log(`Exercise ${exercise} : Lifting weight repetition ${rep} 🏋️`);
     }
 }
+
+//👉for each loop
+let num = [2,3,4,5,6,7]
+
+num.forEach((element) => {
+    console.log(element*element);
+});
+
+
