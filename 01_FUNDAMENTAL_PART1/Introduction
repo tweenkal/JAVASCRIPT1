@@ -30,3 +30,6 @@ converting it from a static page into  an interactive one.
 👉document.getelementbyclassname
 👉The getElementsByClassName() method returns a collection of elements with a specified class name(s).
 
+how to work alert , prompt and confirm
+
+prompt :- use take user input as string
