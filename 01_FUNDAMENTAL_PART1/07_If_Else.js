@@ -23,3 +23,17 @@ else
 }
 console.log(century);
 
+
+// Write a program that checks if a number is positive, negative, or zero.
+
+let number = 12;
+
+if(number > 0){
+    console.log("This is positive");
+}
+else if(number < 0){
+    console.log("This is negative");
+}
+else{
+    console.log("This is zero");
+}

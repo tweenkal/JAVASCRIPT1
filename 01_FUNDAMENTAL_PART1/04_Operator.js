@@ -35,6 +35,32 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 console.log(now - 1991 > now - 2018);
 
+let com1 = 12
+let com2= 14
+
+let com3 = 12
+let com4 = "12"
+
+console.log("com1 == com2 is:",com1 == com2);
+console.log("com1 != com2 is:",com1 != com2);
+console.log("com3 === com4 is:",com3 === com4);
+console.log("com1 !== com2 is:",com1 !== com2);
+console.log("com1 > com2 is:",com1 > com2);
+
+
+// logical oerator
+let y = 5;
+let z = 6;
+
+console.log(y<z && y==5);
+console.log(y>z || y==5);
+console.log(!false);
+console.log(!true);
+
+
+
+
+
 //👉operator precedence
 console.log(25 - 10 - 5);
 
@@ -44,6 +70,23 @@ console.log(a,b);
 
 const avrageAge = ageJonus + ageSarah / 2;
 console.log(ageJonus,ageSarah,avrageAge);
+
+
+// simple calculator using operator
+const no1 = 90;
+const no2 = 12;
+
+console.log("Addition is:",no1 + no2);
+console.log("Subtraction is:",no1 - no2);
+console.log("Multiplication is:",no1 * no2);
+console.log("Division is:",no1 / no2);
+console.log("Modulus is:",no1 % no2);
+console.log("Exponetiation is:",no1 ** no2);
+console.log("Average is:",(no1 + no2) / 2);
+
+
+
+
 
 
 
