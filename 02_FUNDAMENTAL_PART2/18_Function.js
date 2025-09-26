@@ -67,3 +67,18 @@ function fruitProcessor(apples,oranges){
 }
 console.log(fruitProcessor(2,3));
 
+
+// sum of avg using function
+function avg(x,y){
+    return (x+y)/2;
+}
+console.log(avg(4,6));
+
+
+// Create a function to calculate the square of a number.
+function square(num){
+    return num * num;
+}
+console.log(square(5));
+
+

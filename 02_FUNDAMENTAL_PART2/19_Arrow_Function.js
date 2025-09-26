@@ -20,3 +20,7 @@ const yearUntilRetierment = (birthYear,firstName) => {
 console.log(yearUntilRetierment(2004,"Twinkle"));
 console.log(yearUntilRetierment(2003,"Jurali"));
 
+
+// Create a arrow function to calculate the square of a number.
+const square2 = (num) => num * num;
+console.log(square2(7));

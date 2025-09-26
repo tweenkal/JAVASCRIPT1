@@ -93,16 +93,142 @@ let name ="hello";
 let arr = Array.from(name);
 console.log(arr);
  
+// ===========================================================================
+// Task:- 
+// Create an array of fruits and manipulate it.
+let fruits = ["Banana","Orange","Apple","Mango"];
+let fruits1 = ["Pinaple","Cherry"];
+console.log(fruits);
+
+// access the "orange"
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+console.log(fruits[3]);
+console.log(fruits[4]); //undefind because this is not exist in array
+
+// find the length of the array
+console.log("Length of fruits=",fruits.length);
+
+// change the name for "Mango" to "Papaya"
+fruits[3] = "Papaya";
+console.log(fruits);
+
+// add the "Strobary" for this array
+fruits[4] = "Storabary";
+console.log(fruits);
+
+// print the all fruits name for line by line
+for(let i=0 ; i<fruits.length ; i++){
+    console.log(fruits[i]);
+}
+
+// join the fruits using |
+let c = fruits.join("|");
+console.log(c);
+
+// pop the "Mango"
+fruits.pop();
+console.log(fruits);
+
+fruits.pop(2);
+console.log(fruits);
+
+// push the "Mango"
+fruits.push("Mango");
+console.log(fruits);
+
+// unshift :- add the storbary for the starting
+fruits.unshift("Strobary");
+console.log(fruits);
+
+// shift :- remove first element
+fruits.shift();
+console.log(fruits);
+
+// update :- update the "Orange" to "Pinaple"
+fruits[1] = "Pinaple";
+console.log(fruits);
+
+// slice :- 
+let slice = fruits.slice(0,4);
+console.log(slice);
+
+// concate
+let concate = fruits.concat(fruits1);
+console.log(concate);
+
+// sort
+fruits.sort();
+console.log(fruits);
+
+// reverse the array
+fruits.reverse();
+console.log(fruits);
+
+// splice :-add the new element in the array  (start,stop,add)
+let deletevalues = fruits.splice(2,2,100,101);
+console.log(fruits);
+console.log(deletevalues);
+
+// using for loop print the num line by line
+num = [13,23,56,43,24];
+
+for(i=0 ; i<num.length ; i++){
+    console.log(num[i]);   
+}
+    
+// print the square for element in the array
+num1 = [13,23,56,43,24];
+
+num1.forEach((element) => {
+    console.log(element * element);
+});
+
+// array.from create array from the string
+let name1 = "Harry";
+let arr1 = Array.from(name1)
+console.log(arr1);
+
+// for...of loop for array
+for(let i of num1) {
+    console.log(i);
+}
+
+// for...in loop for array  
+for(let item in num1) {
+    console.log(item);   //it is print the key means index
+} 
+
+for(let item in num1) {
+    console.log(num1[item]);   //it is print the value of num1
+} 
+
+// task:-
+// Loop through an array of objects and print values.
+person = [
+    {name : "Twinkle",age : 21},
+    {name : "Jurali" , age : 19},
+    {name : "Jasmin" , age : 20},
+    {name : "Jay" , age : 24},
+    {name : "Heni", age : 7}
+]
+
+// forEach loop
+person.forEach((person) => {
+    console.log("name : " + person.name + ", age :" + person.age);
+});
+
+// for...of loop
+for(let i of person) {
+    console.log("name : " + i.name + ", age :" + i.age);   
+}
+
+// for...in loop
+for(let i in person){
+    console.log("name : " + person[i].name + ", age :" + person[i].age);   
+}
 
 
 
 
-
- 
-
-
-
-
-
-
- 

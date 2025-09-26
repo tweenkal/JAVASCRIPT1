@@ -24,17 +24,17 @@ console.log(jonas["first" + nameKeys]);  //jonas
 console.log(jonas["last" + nameKeys]);  //savaliya
 
 //using prompt input by the user
-const interstIn = prompt("What do you want to know about jonas?Choose between firstName,lastName,age,job and friends");
+// const interstIn = prompt("What do you want to know about jonas?Choose between firstName,lastName,age,job and friends");
 
-if (jonas[interstIn]) {
-    console.log(jonas[interstIn]);
-} else {
-    console.log("Wrong request!Choose between firstName,lastName,age,job and friends");
-}
+// if (jonas[interstIn]) {
+//     console.log(jonas[interstIn]);
+// } else {
+//     console.log("Wrong request!Choose between firstName,lastName,age,job and friends");
+// }
 
-jonas.location = "Portugarl";
-jonas['twitter'] = "@abcjonas";
-console.log(jonas);
+// jonas.location = "Portugarl";
+// jonas['twitter'] = "@abcjonas";
+// console.log(jonas);
 
 //challanges
 //jonas has 3 friends ,and his best friend is called  jay.
@@ -73,6 +73,41 @@ console.log(jonas1.getSummery()) ;
 // The this keyword in JavaScript refers to the object that is 
 // currently executing the code. Its value changes depending on
 //  how and where it is used
+
+
+// Create a person object with name, age, and a greet() method.
+
+person = {
+    name : "twinkle",
+    age : 21,
+    greet : function() {
+        console.log("Hello ,My name is " + this.name + " and My age is" + this.age);
+        
+    }    
+};
+
+console.log(person.name);
+console.log(person.age);
+person.greet();
+
+
+// nested objects
+let user = {
+    id : 101,
+    email : "twinkle@gmail.com",
+    personalInfo : {
+        name : "twinkle",
+        adress : {
+            city : "Ahmedabad",
+            country : "India",
+        }
+    }
+}
+
+
+console.log("all info:",user);
+console.log("PersonalInfo:",user.personalInfo);
+console.log("Adress:",user.personalInfo.adress);
 
 
 
