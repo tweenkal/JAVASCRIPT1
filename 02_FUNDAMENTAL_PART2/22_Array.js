@@ -230,5 +230,47 @@ for(let i in person){
 }
 
 
+// higher method in array
+// map , filter and reduce
 
+//map() :- create an new array by performing some operation an each array element.
+
+let arr2 = [10,20,30];
+let a = arr2.map((value,index,array) => {
+    console.log(value,index,array);
+    return value + 1
+});
+
+console.log(a);
+
+
+// filter():-  filter array with values that passes a test creates a new array
+
+let arr3 = [10,40,6,4,2,5];
+let newarr3 = arr3.filter((value) => {
+    return value < 10;
+});
+
+console.log(newarr3);
+
+
+// reduce():- reduce an array to a single value
+
+let arr4 = [1,2,3,4,5];
+const reduce_func= (h1,h2) => {
+    return h1 + h2;
+};
+
+let newarr4 = arr4.reduce(reduce_func);
+console.log(newarr4);
+
+// task :-
+// Transform an array of numbers to double their value.
+
+let arr5 = [1,2,3,4,5];
+let newarr5 = arr5.map((value) => {
+    return value * 2;
+})
+
+console.log(newarr5);
 

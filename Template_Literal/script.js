@@ -1,33 +1,3 @@
-//👉string:-
-const firstName = "jonas";
-const job = "Teacher";
-const birthYear = 1991;
-const year = 2037;
-
-const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
-console.log(jonas);
-
-
-//👉template literal:-
-//👉it is can assemble multiple pieaces into one final string.
-const jonusNew = `I am ${firstName} ,a ${year - birthYear} years old ${job}!`;
-console.log(jonusNew);
-  
-console.log(`This is the string...`);
-
-//👉multi-line string
-console.log('string with \n\
-multiple \n\
-lines');
-
-//👉using template literals.
-console.log(`string with
-multiple
-lines`);
-
-
-// string methods
-
 // string method
 // concate
 
@@ -75,3 +45,22 @@ console.log(html.split('>'));
 
 // replace
 console.log(html.replace("Hello","hellllo"));
+
+
+// template literal 
+let name = "Twinkle";
+let fruit1 = "orange";
+let fruit2 = "apple";
+
+let myHtml = `my name is ${name} and i like the fruit ${fruit1} and ${fruit2}`;
+console.log(myHtml);
+// document.body.innerHTML(myHtml);
+
+
+
+
+
+
+
+
+
