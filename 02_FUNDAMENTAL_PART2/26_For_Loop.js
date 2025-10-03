@@ -98,3 +98,78 @@ for(let i=1 ; i <= 50 ; i++){
 }
 
 
+// for of loop
+// Create an array of numbers → [10, 20, 30, 40, 50].
+// Use a for...of loop to calculate the sum of all numbers.
+
+let no = [10, 20, 30, 40, 50];
+let sum = 0;
+
+for(let i of no) {
+    sum += i;   
+};
+
+console.log("sum =" + sum);
+
+// Create an array of strings → ["apple", "banana", "mango"].
+// Use a for...of loop to print each fruit in uppercase.
+
+let fruits = ["apple", "banana", "mango"];
+
+for(let i of fruits) {
+    console.log(i.toUpperCase());
+}
+
+// Create a string → "JavaScript".
+// Use a for...of loop to print each character one by one.
+
+let string = "javascript";
+
+for(let i of string) {
+    console.log(i);
+}
+
+// for in loop
+// Create an object called car with properties:
+// brand: "Toyota"
+// model: "Corolla"
+// year: 2020
+// 👉 Use a for...in loop to print all the keys and their values.
+
+let car = {
+    brand : "Toyota",
+    model : "corolla",
+    year : 2020
+};
+
+for(let i in car) {
+    console.log(i , " : " , car[i]);   
+}
+
+
+// Create an object called student with these properties:
+// name: "Riya"
+// age: 21
+// grade: "A"
+// marks: { math: 90, science: 85, english: 88 }
+// Using a for...in loop, print only the keys of the student object (not the values).
+// Then, using another for...in loop, print all the values of the marks object inside the student.
+
+let student = {
+    name : "riya",
+    grade : "A",
+    marks : {
+        math : 90,
+        science : 85,
+        english : 88
+    }
+}
+
+for(let i in student){
+    console.log(i);
+}
+
+for(let i in student.marks){
+    console.log(i + ":" + student.marks[i]);
+}
+

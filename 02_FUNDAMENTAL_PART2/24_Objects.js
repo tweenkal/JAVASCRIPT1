@@ -110,6 +110,34 @@ console.log("PersonalInfo:",user.personalInfo);
 console.log("Adress:",user.personalInfo.adress);
 
 
+// 
+
+let student = {
+    name : "twinkle",
+    age : 21,
+    marks : {
+        math : 90,
+        science : 70,
+        english : 80
+    },
+
+    getAverage: function () {
+        let total = this.marks.math + this.marks.science + this.marks.english;
+        return total / 3;
+    },
+
+    introduce: function() {
+        console.log(`Hy my name is " + ${ this.name }+ "and i am " + ${this.age} + "years old`);
+        
+    }
+};
+
+student.introduce();
+console.log(student.getAverage());
+
+
+
+
 
 
 
